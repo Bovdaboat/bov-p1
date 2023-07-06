@@ -1,15 +1,14 @@
-import Image from 'next/image'
 import Navbar from "@/app/comp/Navbar";
-import Hero from "@/app/comp/Hero";
+import Main from "@/app/Main";
 import Footer from "@/app/comp/Footer";
 
-
-export default function Home() {
-  return (
-      <>
-    <Navbar />
-          <Hero />
-          <Footer />
-        </>
-  )
+export default function Home(){
+ return (
+     <>
+   <Navbar />
+         <Main />
+         <Footer />
+       </>
+ )
 }
+
