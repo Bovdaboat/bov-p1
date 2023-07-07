@@ -2,7 +2,7 @@ import Navbar from "@/app/comp/Navbar";
 import Main from "@/app/Main";
 import Footer from "@/app/comp/Footer";
 
-export default function Home(){
+const Page = () => {
  return (
      <>
    <Navbar />
@@ -12,3 +12,4 @@ export default function Home(){
  )
 }
 
+export default Page
